@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Рішення квадратного рівняння <span>(ax² + bx + c = 0)</span></h1>
+
+    <div class="form-row">
+        <form id="getForm">
+            <h3>GET-запит</h3>
+            <label>A: <input id="getA" type="number" step="any" required></label>
+            <label>B: <input id="getB" type="number" step="any" required></label>
+            <label>C: <input id="getC" type="number" step="any" required></label>
+            <button type="submit">Вирішити</button>
+        </form>
+
+        <form id="postForm">
+            <h3>POST-запит</h3>
+            <label>A: <input id="postA" type="number" step="any" required></label>
+            <label>B: <input id="postB" type="number" step="any" required></label>
+            <label>C: <input id="postC" type="number" step="any" required></label>
+            <button type="submit">Вирішити</button>
+        </form>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
